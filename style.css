@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustracao {
+    border-radius: 30px;
+}
+
+.botao {
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 20px;
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.descricao {
+    color: hsl(0, 0%, 50%);
+    font-size: 20px;
+}
+
+.titulo {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+.subtitulo {
+    color: hsl(0, 0%, 7%);
+    font-size: 18px;
+}
+
+.containerPrincipal {
+    background-color: #fff;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 5px 5px 3px 3px hsl(0, 0%, 7%);
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px 0px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    align-items: start;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+}
+
+.autor img {
+    width: 40px;
+}
+
+@media screen and (max-width: 475px) {
+    .containerPrincipal {
+        width: 250px;
+    }
+}
