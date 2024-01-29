@@ -4,4 +4,4 @@ Este é um projeto proposto pelo Frontend Mentor, construído exclusivamente com
 
 <a href="https://cartao-blog.vercel.app/">Link do Projeto</a>
 
-<img src="./assets/img/image.png" alt="Imagem do Projeto">
+<img src="./assets/images/image.png" alt="Imagem do Projeto">
